@@ -23,8 +23,8 @@ let chartGroup = svg
   .attr("transform", `translate(${margin.left}, ${margin.top})`)
 
 // set x and y params  
-let chosenXAxis = "poverty"
-let chosenYAxis = "healthcare"
+let chosenXAxis = "poverty",
+chosenYAxis = "healthcare";
 
 // function used for updating x-scale var upon click on axis label
 function xScale(data, chosenXAxis) {
